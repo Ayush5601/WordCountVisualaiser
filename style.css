@@ -1,4 +1,3 @@
-
 #tblWordCount {
   display: inline;
   position: absolute;
@@ -9,6 +8,6 @@
 }
 #cnvWcChart {
   height: 600px !important;
-  width: 600px !important;
+  width: 750px !important;
   background-color: beige;
 }

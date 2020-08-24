@@ -6,7 +6,7 @@ $('#btnCalc').click(() => {
   printWordTable(wcArr)
   generateChart(wcArr)
 })
-
+document.body.style.zoom="110%"
 function getWords(inputText) {
   let chars = inputText.split('')
   let newChars = []
