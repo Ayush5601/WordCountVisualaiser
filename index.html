@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WCV</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="jquery.js"></script>
-  <script src="chart.js"></script>
-  <script async defer src="script.js"></script>
-</head>
-<body>
-  <h1 align="center">Word Count Visualiser</h1>
-  <table border="1" cellpadding="2" id="tblWordCount"></table>
-  <div id="contents">
-    <label for="inputText">Paste Text Here</label>
-    <br>
-    <textarea id="inputText" cols="100" rows="20"></textarea>
-    <br>
-    <button id="btnCalc">Calculate</button>
-    <br>
-    <canvas width="600" height="600" id="cnvWcChart" ></canvas>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WCV</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.js"></script>
+    <script src="chart.js"></script>
+    <script async defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 align="center">
+      Word Count Visualiser (Human Text Vs AI Text Comparison)
+    </h1>
+    <table border="1" cellpadding="8" id="tblWordCount"></table>
+    <div id="contents">
+      <!-- <label for="inputText">Human Text Vs AI Text Comparison</label> -->
+      <br />
+      <textarea
+        align="center"
+        id="inputText"
+        cols="150"
+        rows="20"
+        placeholder="Please paste your text here..."
+      ></textarea>
+      <br />
+      <button id="btnCalc">Calculate</button>
+      <br />
+      <canvas width="600" height="600" id="cnvWcChart"></canvas>
+    </div>
+  </body>
 </html>
