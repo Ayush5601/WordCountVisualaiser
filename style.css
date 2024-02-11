@@ -4,10 +4,15 @@
 }
 #contents * {
   margin-left: 150px;
-  display: inline
+  display: inline;
 }
 #cnvWcChart {
   height: 600px !important;
-  width: 750px !important;
+  width: 80% !important;
   background-color: beige;
+}
+
+#inputText {
+  width: 80% !important;
+  height: 300px !important;
 }
